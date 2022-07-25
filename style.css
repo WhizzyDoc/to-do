@@ -1,0 +1,99 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #066acd;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.heading {
+    width: 100%;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+}
+
+.container {
+    background: white;
+    padding: 10px;
+    max-width: 600px;
+    min-width: 300px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#btn {
+ border: none;
+ padding: 15px 20px;
+ outline: none;
+ border-radius: 5px;
+ margin-left: 10px;
+ background: #0d75ec;
+ color: white;
+ transition: all 0.65s ease;
+}
+
+#btn:hover {
+  background: green;
+  color: white;
+}
+
+#todo {
+  width: 70%;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 5px;
+  margin-bottom: 40px;
+  background: white;
+  border: 2px solid grey;
+  color: black;
+  outline: none;
+  font-weight: 500;
+}
+
+#todo:focus {
+    border: 2px solid #066acd;
+}
+
+ul {
+  text-align: left;
+  margin-top: 20px;
+}
+
+li {
+  list-style: none;
+  padding: 10px 20px;
+  transform: capitalize;
+  transition: all 0.70s ease;
+  border-radius: 6px;
+  background: #066acd;
+  margin-bottom: 20px;
+  font-weight: 700px;
+  color: white;
+}
+
+li:hover {
+  background: green;
+  color: white;
+}
+
+li > button {
+  float: right;
+  background: none;
+  font-weight: 800;
+  color: red;
+}
+
+.done {
+  background: red;
+  color: white;
+}
